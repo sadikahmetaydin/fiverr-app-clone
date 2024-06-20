@@ -1,0 +1,29 @@
+.categoryCard {
+  width: 252px;
+  height: 344px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.categoryCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.categoryCard .desc {
+  font-weight: 300;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.categoryCard .title {
+  font-weight: 500;
+  font-size: 20px;
+  position: absolute;
+  left: 15px;
+  top: 40px;
+}

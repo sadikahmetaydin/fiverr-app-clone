@@ -1,0 +1,88 @@
+.featured {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  background-color: #013914;
+  color: white;
+}
+
+.featured .container {
+  width: 1400px;
+  display: flex;
+  align-items: center;
+}
+
+/* Left Featured Styles */
+.featured .left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.featured h1 {
+  font-size: 50px;
+}
+
+.featured h1 i {
+  font-weight: 300;
+}
+
+.featured .search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.featured .searchInput {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.featured .searchInput img {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.featured .searchInput input {
+  border: none;
+  outline: none;
+}
+
+.featured .search button {
+  width: 120px;
+  height: 50px;
+  border: none;
+  background-color: #1dbf73;
+  color: white;
+  cursor: pointer;
+}
+
+.featured .popular {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.featured .popular button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Right Featured Styles */
+.right {
+  height: 100%;
+}
+
+.right img {
+  height: 100%;
+  object-fit: contain;
+}

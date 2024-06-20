@@ -41,6 +41,37 @@
   font-weight: 500;
 }
 
+.navbar .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.navbar .user img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar .options {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: gray;
+  width: 200px;
+  font-weight: 300;
+}
+
 .navbar button {
   background-color: transparent;
   color: white;

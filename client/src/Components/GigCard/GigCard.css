@@ -1,0 +1,81 @@
+.gigCard {
+  width: 324px;
+  height: 370px;
+  border: 1px solid lightgray;
+  margin-bottom: 25px;
+}
+
+.gigCard img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.gigCard .info {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.gigCard .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gigCard .user img {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.gigCard p {
+  color: #111;
+}
+
+.gigCard .star {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.gigCard .star img {
+  width: 14px;
+  height: 14px;
+}
+
+.gigCard .star span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffc108;
+}
+
+.gigCard hr {
+  height: 0;
+  border: 0.5px solid lightgray;
+}
+
+.gigCard .details {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gigCard .details img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.gigCard .details span {
+  color: #999;
+  font-size: 12px;
+}
+
+.gigCard .details h2 {
+  color: #555;
+  font-size: 18px;
+  font-weight: 400;
+}

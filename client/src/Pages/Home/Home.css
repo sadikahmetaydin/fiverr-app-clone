@@ -1,0 +1,96 @@
+.home .features {
+  background-color: #f1fdf7;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px;
+}
+
+/* Second Features Style */
+.home .dark {
+  background-color: #0d084d;
+}
+
+.home .dark h1 {
+  color: white !important;
+}
+
+.home .dark p {
+  color: white !important;
+  margin-bottom: 20px !important;
+}
+
+.home .dark .title {
+  color: white !important;
+  font-weight: 300 !important;
+  font-size: 14px !important;
+}
+
+.home .dark .right-image {
+  width: 670px;
+  height: 397px;
+}
+
+.home .dark button {
+  background-color: #1dbf73;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+  width: max-content;
+}
+/*  */
+
+.home .features .container {
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+.home .features .item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.home .features .item:first-child {
+  flex: 2;
+}
+
+.home .features .item:last-child {
+  flex: 3;
+}
+
+.home .features h1 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.home .features p {
+  font-size: 18px;
+  font-weight: 300;
+  color: gray;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+.home .features .title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: gray;
+}
+
+.home .features img {
+  width: 24px;
+  height: 24px;
+}
+
+.home .features video {
+  width: 720px;
+}

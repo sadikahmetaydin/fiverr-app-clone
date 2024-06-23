@@ -1,8 +1,9 @@
 .gigCard {
   width: 324px;
-  height: 370px;
-  border: 1px solid lightgray;
-  margin-bottom: 25px;
+  height: 500px;
+  border: 1px solid #eaeaea;
+  margin-bottom: 40px;
+  margin-top: 10px;
 }
 
 .gigCard img {
@@ -15,13 +16,17 @@
   padding: 10px 20px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 
 .gigCard .user {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.gigCard .info p {
+  margin: 5px;
 }
 
 .gigCard .user img {
@@ -53,29 +58,47 @@
 
 .gigCard hr {
   height: 0;
-  border: 0.5px solid lightgray;
+  border: 0.5px solid #eaeaea;
 }
 
-.gigCard .details {
+.gigCard .detail {
   padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.gigCard .details img {
+.gigCard .detail img {
   width: 16px;
   height: 16px;
   cursor: pointer;
+  object-fit: cover;
 }
 
-.gigCard .details span {
+.gigCard .detail span {
   color: #999;
   font-size: 12px;
 }
 
-.gigCard .details h2 {
+.gigCard .detail h2 {
   color: #555;
   font-size: 18px;
   font-weight: 400;
+}
+
+.gigCard .price span {
+  color: #999;
+  font-size: 12px;
+}
+
+.gigCard .price h2 {
+  color: #555;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: end;
+}
+
+.gigCard .price sup {
+  font-size: 12px;
+  font-weight: 300;
 }

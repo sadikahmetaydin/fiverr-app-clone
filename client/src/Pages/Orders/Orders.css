@@ -1,0 +1,51 @@
+.orders {
+  display: flex;
+  justify-content: center;
+}
+
+.orders .container {
+  width: 1400px;
+  padding: 50px 0px;
+}
+
+.orders .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.orders .title button {
+  background-color: #1dbf73;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.orders table {
+  width: 100%;
+}
+
+.orders table tr {
+  height: 50px;
+}
+
+.orders table tr th {
+  text-align: left;
+}
+
+.orders table tr:nth-child(even) {
+  background-color: #1dbf730f;
+}
+
+.orders table td .image {
+  width: 50px;
+  height: 25px;
+  object-fit: cover;
+}
+
+.orders table td .delete {
+  width: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.add {
+  display: flex;
+  justify-content: center;
+}
+
+.add .container {
+  width: 1400px;
+  padding: 50px 0px;
+}
+
+.add .container h1 {
+  color: gray;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.add .container .sections {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.add .container .sections .left,
+.add .container .sections .right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.add .container .sections .left label,
+.add .container .sections .right label {
+  color: gray;
+  font-size: 18px;
+}
+
+.add .container .sections .left input,
+select,
+textarea,
+.add .container .sections .right input,
+select,
+textarea {
+  padding: 20px;
+}
+
+.add .container .sections .left button {
+  border: none;
+  padding: 20px;
+  background-color: #1dbf73;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}

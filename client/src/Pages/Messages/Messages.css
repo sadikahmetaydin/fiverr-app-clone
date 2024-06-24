@@ -1,0 +1,53 @@
+.messages {
+  display: flex;
+  justify-content: center;
+}
+
+.messages .container {
+  width: 1400px;
+  padding: 50px 0px;
+}
+
+.messages .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.messages table button {
+  background-color: #1dbf73;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.messages table {
+  width: 100%;
+}
+
+.messages table tr {
+  height: 100px;
+}
+
+.messages table tr th {
+  text-align: left;
+}
+
+.messages table td {
+  padding: 10px;
+}
+
+.messages table td:first-child {
+  font-weight: 500;
+}
+
+.messages table td:nth-child(2),
+.messages table td:nth-child(3) {
+  color: gray;
+}
+
+.messages table .active {
+  background-color: #1dbf730f;
+}

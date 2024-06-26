@@ -14,6 +14,8 @@ import Orders from './Pages/Orders/Orders';
 import Messages from './Pages/Messages/Messages';
 import Message from './Pages/Message/Message';
 import MyGigs from './Pages/MyGigs/MyGigs';
+import Login from './Pages/Login/Login';
+import Register from './Pages/Register/Register';
 
 function App() {
   const Layout = () => {
@@ -40,20 +42,12 @@ function App() {
           element: <Gigs />,
         },
         {
-          path: '/gig/:id',
-          element: <Gig />,
-        },
-        {
-          path: '/orders',
-          element: <Orders />,
-        },
-        {
           path: '/mygigs',
           element: <MyGigs />,
         },
         {
-          path: '/add',
-          element: <Add />,
+          path: '/orders',
+          element: <Orders />,
         },
         {
           path: '/messages',
@@ -62,6 +56,22 @@ function App() {
         {
           path: '/message/:id',
           element: <Message />,
+        },
+        {
+          path: '/add',
+          element: <Add />,
+        },
+        {
+          path: '/gig/:id',
+          element: <Gig />,
+        },
+        {
+          path: '/register',
+          element: <Register />,
+        },
+        {
+          path: '/login',
+          element: <Login />,
         },
       ],
     },

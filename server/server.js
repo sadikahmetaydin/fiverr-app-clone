@@ -1,6 +1,9 @@
 import express from 'express';
+import cors from 'cors';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+// Cookie Parser
+import cookieParser from 'cookie-parser';
 // Route Connections
 import authRoute from './routes/auth.route.js';
 import userRoute from './routes/user.route.js';
@@ -26,6 +29,11 @@ const connect = async () => {
   }
 };
 
+// Middleware
+app.use(cors({ origin: 'http://localhost:5173', credential: true }));
+app.use(express.json());
+app.use(cookieParser());
+
 app.use('/api/auth', authRoute);
 app.use('/api/users', userRoute);
 app.use('/api/gigs', gigRoute);
@@ -33,6 +41,13 @@ app.use('/api/orders', orderRoute);
 app.use('/api/conversation', conversationRoute);
 app.use('/api/messages', messageRoute);
 app.use('/api/reviews', reviewRoute);
+
+app.use((err, req, res, next) => {
+  const errorStatus = err.status || 500;
+  const errorMessage = err.message || 'Something went wrong!';
+
+  return res.status(errorStatus).send(errorMessage);
+});
 
 // localhost Syntax
 app.listen(8800, () => {

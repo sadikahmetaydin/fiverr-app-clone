@@ -1,4 +1,4 @@
-# Fiverr App Clone 📈 
+# Fiverr App Clone 💻 
 A fiverr app clone build with reactjs.
 
 # 💡About this project 

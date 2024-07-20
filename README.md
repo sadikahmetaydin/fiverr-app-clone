@@ -3,7 +3,7 @@ A fiverr app clone build with reactjs.
 
 # 💡About this project 
 
-...
+I built clone most popular freelance work website. In this website will be able to search graphic designer, photographer, software developer and also lots of options. If you share your portfolio maybe can get some freelance job. This website you can see admin panel, order page and then also you can see message page for customers. Maybe website will give more opportunity for your life.
 
 ## ⚡Technologies
 
